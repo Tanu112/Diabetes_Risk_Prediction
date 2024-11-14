@@ -5,7 +5,7 @@ import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 model=pickle.load(open("rf.pkl", "rb"))
 
